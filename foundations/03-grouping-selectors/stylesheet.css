@@ -1,0 +1,14 @@
+.read,
+.unread {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.read {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.unread {
+    background-color: hsl(56, 100%, 50%);
+}
