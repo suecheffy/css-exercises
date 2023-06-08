@@ -1,1 +1,1 @@
-My lesson from [here](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/01-css-methods).
+This is my css selectors practice from [here](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/01-css-methods).
