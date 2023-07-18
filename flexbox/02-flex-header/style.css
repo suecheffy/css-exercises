@@ -1,0 +1,38 @@
+.header {
+ font-family: 'Times New Roman', Times, serif;
+ background-color: beige;
+}
+
+.logo {
+    color: tomato;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: white;
+    padding: 4px 32px;
+}
+ 
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: blue;
+    background-color: white;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.header {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}

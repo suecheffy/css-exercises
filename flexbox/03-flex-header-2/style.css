@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+}
+
+.header {
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+  color: purple;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: purple;
+  font-weight: bold;
+  font-size: 50px;
+  background-color: white;
+  padding: 4px 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0 -10px;
+  padding-left: 0;
+}
+
+a {
+  color: purple;
+  background-color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.left-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.right-links .notification {
+  margin-left: auto;
+  height: fit-content;
+  padding: 8px 30px;
+  font-size: 15px;
+  color: white;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.right-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.right-links .box {
+  margin-left: auto;
+  height: 48px;
+  width: 48px;
+  color: purple;
+  background-color: purple;
+  border-radius: 50%;
+}
+
+li {
+  margin: 0 4px;
+  padding: 4px;
+}
